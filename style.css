@@ -1,0 +1,107 @@
+body{
+    background-color: #392C5F;
+    font-family: sans-serif;
+    padding: 20px; /*Espacio exterior*/
+
+    /* Color de las letras */
+    color: white;
+}
+
+/* Heeader como H1 H2 */
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 30px;
+}
+
+.established{
+    font-style: italic;
+}
+
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: impact, serif;
+}
+.menu{
+    width: 80%;
+    background-color: #201D46;
+    /* margin left  right automarico centra el elemento  */
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 20px;
+
+    /* respondive */
+    max-width: 500px;
+
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr{
+    height: 2px;
+    background-color: black;
+    border-color: black;
+}
+.linea_fondo{
+    margin-top: 25px;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.informatica_1, .audiovisual_1{
+    text-align: left;
+    width: 50%;
+}
+
+.tech{
+    text-align: left;
+    width: 50%;
+
+}
+
+/* FOOTER */
+
+footer{
+    font-size: 14px;
+
+}
+
+.social_1{
+    color: black;
+    text-decoration: none;
+}
+
+.social_2{
+    margin-left: 5px;
+}
+
+a:visited{
+    color: #392C5F;
+
+}
+
+a:hover{
+    color: white;
+}
+
+
+a:active{
+    color: black;
+}
